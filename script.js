@@ -15,8 +15,8 @@ function (e) {
     };
 
     // Make a POST request to the AWS API Gateway endpoint
-    fetch('https://gp9vjo8jf5.execute-api.ap-south-1.amazonaws.com/test/update-list', {
-        method: 'POST',
+    fetch('https://w5k7mhah5d.execute-api.ap-south-1.amazonaws.com/default/new-serverless', {
+        method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
         },
